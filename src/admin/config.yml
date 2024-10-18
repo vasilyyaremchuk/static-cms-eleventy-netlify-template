@@ -1,10 +1,10 @@
 backend:
   # Use netlify identity as backend
-  name: git-gateway
+  # name: git-gateway
   branch: main
   ### enable below lines for github integration ###
-  # name: github
-  # repo: surjithctly/eleventy-starter
+  name: github
+  repo: vasilyyaremchuk/static-cms-eleventy-netlify-template
 media_folder: "src/static/img"
 public_folder: "/static/img"
 
